@@ -1,0 +1,19 @@
+{
+  "name": "canvas-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+      "build": "rollup -c",
+      "publish": "git subtree push --prefix=example origin gh-pages"
+    },
+  "devDependencies": {
+    "rollup": "^0.55.1",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
